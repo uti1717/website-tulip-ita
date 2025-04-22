@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f5b8be;
+  height: 100vh;
+}
+
+/* headbar atas */
+.headbar {
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(to right, #b13745);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding-left: 550px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+
+/* isi utama */
+.main {
+  display: flex;
+  margin-top: 80px; /* biar gak ketiban headbar */
+  height: calc(100vh - 80px);
+}
+
+/* sidebar */
+.sidebar {
+  width: 200px;
+  background-color: #3e3a19;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0px;
+  position: fixed;
+  height: 100vh;
+  font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sidebar a {
+  color: #ffffff;
+  padding: 15px;
+  border-bottom: 2px solid #ffffff;
+  transition: 0.3s;
+  font-size: 18px;
+}
+
+.sidebar a:hover {
+  background-color: #827122;
+}
+
+/* kontennya */
+
+.sidebar ul li {
+  position: relative;
+  padding: 10px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.sidebar ul li:hover {
+  transform: translateX(15px); /* teks geser kanan */
+  color: #ffffff; /* ganti warna */
+}
+
+.content h2 {
+  color: #b13745;
+  padding-left: 220px;
+  padding-top: 10px;
+  font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+.content h3 {
+  color: #b13745;
+  padding-left: 0px;
+  padding-top: 10px;
+  font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+.content p {
+  color: #b13745;
+  padding-left: 220px;
+  padding-top: 10px;
+  text-align: justify;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.gambar {
+  width: 350px;
+  height: auto;
+  object-fit: cover; /* atur isi gambar di dalam box */
+  border-radius: 10px; /* bikin sudutnya membulat */
+  border: 2px solid #ccc; /* kasih garis pinggir */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* efek bayangan */
+  display: block; /* biar gampang diatur posisinya */
+  margin: 10px auto; /* kasih jarak dan center */
+  margin-left: -50px;
+}
+.gambarkecil {
+  width: 350px;
+  height: auto;
+  object-fit: cover; /* atur isi gambar di dalam box */
+  border-radius: 10px; /* bikin sudutnya membulat */
+  border: 2px solid #ccc; /* kasih garis pinggir */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* efek bayangan */
+  display: block; /* biar gampang diatur posisinya */
+  margin: 10px auto; /* kasih jarak dan center */
+  margin-left: -50px;
+}
+.gambarr {
+  width: 350px;
+  height: auto;
+  object-fit: cover; /* atur isi gambar di dalam box */
+  border-radius: 10px; /* bikin sudutnya membulat */
+  border: 2px solid #ccc; /* kasih garis pinggir */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* efek bayangan */
+  display: block; /* biar gampang diatur posisinya */
+  margin: 10px auto; /* kasih jarak dan center */
+  margin-left: -50px;
+}
+.gambar3 {
+  width: 350px;
+  height: auto;
+  object-fit: cover; /* atur isi gambar di dalam box */
+  border-radius: 10px; /* bikin sudutnya membulat */
+  border: 2px solid #ccc; /* kasih garis pinggir */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* efek bayangan */
+  display: block; /* biar gampang diatur posisinya */
+  margin: 10px auto; /* kasih jarak dan center */
+  margin-left: -50px;
+}
+.gambar7 {
+  width: 350px;
+  height: auto;
+  object-fit: cover; /* atur isi gambar di dalam box */
+  border-radius: 10px; /* bikin sudutnya membulat */
+  border: 2px solid #ccc; /* kasih garis pinggir */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* efek bayangan */
+  display: block; /* biar gampang diatur posisinya */
+  margin: 10px auto; /* kasih jarak dan center */
+  margin-left: -50px;
+}
+.gambar9 {
+  width: 350px;
+  height: auto;
+  object-fit: cover; /* atur isi gambar di dalam box */
+  border-radius: 10px; /* bikin sudutnya membulat */
+  border: 2px solid #ccc; /* kasih garis pinggir */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* efek bayangan */
+  display: block; /* biar gampang diatur posisinya */
+  margin: 10px auto; /* kasih jarak dan center */
+  margin-left: -50px;
+}
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gambar-container {
+  display: flex;
+  position: relative; /* supaya container gambar tetap teratur */
+}
+
+.sidebar-kanan {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100vh; /* biar sidebar-nya full vertikal */
+  background-color: #827122;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+  z-index: 1; /* pastikan sidebar kanan tetap di atas konten lain */
+}
+
+.garis {
+  height: 5px;
+  background-color: #ffffff; /* warna garis yang lebih gelap */
+  margin: 5px 0;
+}
+.sidebar-kiri {
+  width: 200px;
+  background-color: #3e3a19;
+  display: flex;
+  flex-direction: column;
+  padding-top: 75px;
+  position: fixed;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0; /* ini yang penting biar mentok kiri */
+  z-index: 1; /* biar nggak ketumpuk konten lain */
+}
+.sidebar-kiri a {
+  color: #ffffff;
+  padding: 15px;
+  border-bottom: 2px solid #ffffff;
+  transition: 0.3s;
+  font-size: 18px;
+  font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sidebar-kiri a:hover {
+  background-color: #827122;
+}
+
+/* kontennya */
+
+.sidebar-kiri ul li {
+  position: relative;
+  padding: 10px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.sidebar-kiri ul li:hover {
+  transform: translateX(15px); /* teks geser kanan */
+  color: #827122; /* ganti warna */
+}
+.beranda {
+  font-family: "Milonga", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  margin-top: 10px;
+  line-height: 1.6;
+  padding-right: 100px;
+  padding-top: 40px;
+  color: #b13745;
+}
